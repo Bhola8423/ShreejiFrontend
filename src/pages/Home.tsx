@@ -6,7 +6,7 @@ import FloatingElement from '../components/ui/FloatingElement';
 import AnimatedCounter from '../components/ui/AnimatedCounter';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
-import { studentForm, teacherForm } from '../constant';
+import { ONRENDER_BASE_URL, studentForm, teacherForm } from '../constant';
 import MainImage from "../assets/main.jpeg"
 import WhyChooseUse from '../components/common/WhyChooseUse';
 
@@ -19,6 +19,7 @@ const Home: React.FC = () => {
   });
 
   useEffect(() => {
+    fetch(ONRENDER_BASE_URL);
     const timer = setTimeout(() => {
       setCounters({
         students: 1500,
