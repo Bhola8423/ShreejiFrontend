@@ -23,9 +23,9 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Career />} />
-          <Route path="/jamwant/teacherList" element={<TeacherList />}/>
-          <Route path="/jamwant/studentList" element={<StudentList />}/>
-          <Route path="/jamwant/inquiryList" element={<InquiryList />}/>
+          <Route path="/jamwantteacherList" element={<TeacherList />}/>
+          <Route path="/jamwantstudentList" element={<StudentList />}/>
+          <Route path="/jamwantinquiryList" element={<InquiryList />}/>
         </Routes>
       </Layout>
     </Router>

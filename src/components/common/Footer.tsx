@@ -139,15 +139,15 @@ const Footer: React.FC = () => {
               &copy; 2022 Shree Ji Tuition. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="/jamwant/teacherList" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              <Link to="/jamwantteacherList" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Privacy Policy
-              </a>
-              <a href="/jamwant/studentList" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              </Link>
+              <Link to="/jamwantstudentList" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Terms of Service
-              </a>
-              <a href="inquiryList" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              </Link>
+              <Link to="/jamwantinquiryList" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Cookie Policy
-              </a>
+              </Link>
             </div>
           </div>
         </motion.div>

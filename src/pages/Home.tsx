@@ -167,12 +167,12 @@ const Home: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
               >
-                <Link to={teacherForm}>
+                <Link to={"/career"}>
                   <Button size="lg" className="w-full sm:w-auto font-bold text-3xl flex items-center" >
                     <span className='text-2xl'>Join as a Teacher</span> <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
-                <Link to={studentForm}>
+                <Link to={"/courses"}>
                   <Button size="lg" variant='outline' className="w-full sm:w-auto font-bold text-3xl flex items-center">
                    <span className='text-2xl'> Join as Student</span>
                   </Button>

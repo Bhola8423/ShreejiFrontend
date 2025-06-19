@@ -220,7 +220,7 @@ const Career: React.FC = () => {
             while building a rewarding career in education.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to={teacherForm}>
+            <Link to={"/career"}>
             <Button size="lg">
               Apply Now
             </Button>
