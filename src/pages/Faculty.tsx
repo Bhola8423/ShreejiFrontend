@@ -10,7 +10,7 @@ const Faculty: React.FC = () => {
 
   const faculty = [
     { 
-      name: 'Dr. Sarah Johnson', 
+      name: 'Uday Verma', 
       subject: 'Mathematics', 
       experience: '15 years', 
       rating: 4.9, 
@@ -18,11 +18,11 @@ const Faculty: React.FC = () => {
       qualification: 'Ph.D. in Mathematics',
       specialization: ['Algebra', 'Calculus', 'Geometry', 'Statistics'],
       students: 120,
-      location: 'North Delhi',
+      location: 'Gorakhpur',
       description: 'Passionate mathematics educator with expertise in making complex concepts simple and engaging.'
     },
     { 
-      name: 'Prof. Michael Chen', 
+      name: 'Shivam singh', 
       subject: 'Science', 
       experience: '12 years', 
       rating: 4.8, 
@@ -30,11 +30,11 @@ const Faculty: React.FC = () => {
       qualification: 'M.Sc. Physics, B.Ed.',
       specialization: ['Physics', 'Chemistry', 'Biology', 'Environmental Science'],
       students: 95,
-      location: 'South Delhi',
+      location: 'Azamgarh',
       description: 'Science enthusiast who believes in hands-on learning and practical application of scientific concepts.'
     },
     { 
-      name: 'Ms. Emily Davis', 
+      name: 'Vikash Yadav', 
       subject: 'English', 
       experience: '10 years', 
       rating: 4.9, 
@@ -42,11 +42,11 @@ const Faculty: React.FC = () => {
       qualification: 'M.A. English Literature',
       specialization: ['Grammar', 'Literature', 'Creative Writing', 'Communication Skills'],
       students: 110,
-      location: 'East Delhi',
+      location: 'Gorakhpur',
       description: 'English literature expert focused on developing strong communication and analytical skills.'
     },
     { 
-      name: 'Dr. Rajesh Kumar', 
+      name: 'Rajesh yadav', 
       subject: 'Physics', 
       experience: '18 years', 
       rating: 5.0, 
@@ -54,7 +54,7 @@ const Faculty: React.FC = () => {
       qualification: 'Ph.D. Physics, IIT Delhi',
       specialization: ['Mechanics', 'Thermodynamics', 'Electromagnetism', 'Modern Physics'],
       students: 85,
-      location: 'West Delhi',
+      location: 'Azamgarh',
       description: 'IIT alumnus with extensive experience in competitive exam preparation and board exam coaching.'
     },
     { 
@@ -66,7 +66,7 @@ const Faculty: React.FC = () => {
       qualification: 'M.Sc. Chemistry',
       specialization: ['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry'],
       students: 75,
-      location: 'Central Delhi',
+      location: 'Azamgarh',
       description: 'Chemistry specialist known for making chemical reactions and concepts crystal clear.'
     },
     { 
@@ -78,7 +78,7 @@ const Faculty: React.FC = () => {
       qualification: 'M.Sc. Biology, B.Ed.',
       specialization: ['Botany', 'Zoology', 'Human Physiology', 'Genetics'],
       students: 90,
-      location: 'Gurgaon',
+      location: 'Azamgarh',
       description: 'Biology expert with a passion for life sciences and medical entrance exam preparation.'
     }
   ];

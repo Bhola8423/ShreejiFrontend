@@ -2,6 +2,31 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Camera, X, ChevronLeft, ChevronRight, Play, Award, Users, BookOpen } from 'lucide-react';
 import Card from '../components/ui/Card';
+import Img1 from "../assets/images/img1.jpeg"
+import Img2 from "../assets/images/img2.jpeg"
+import Img3 from "../assets/images/img3.jpeg"
+import Img4 from "../assets/images/img4.jpeg"
+import Img5 from "../assets/images/img5.jpeg"
+import Img6 from "../assets/images/img6.jpeg"
+import Img7 from "../assets/images/img7.jpeg"
+import Img8 from "../assets/images/img8.jpeg"
+import Img9 from "../assets/images/img9.jpeg"
+import Img10 from "../assets/images/img10.jpeg"
+import Img11 from "../assets/images/img11.jpeg"
+import Img12 from "../assets/images/img12.jpeg"
+import Img13 from "../assets/images/img13.jpeg"
+import Img14 from "../assets/images/img14.jpeg"
+import Img15 from "../assets/images/img15.jpeg"
+import Img16 from "../assets/images/img16.jpeg"
+import Img17 from "../assets/images/img17.jpeg"
+import Img18 from "../assets/images/img18.jpeg"
+import Img19 from "../assets/images/img19.jpeg"
+import Img20 from "../assets/images/img20.jpeg"
+import Img21 from "../assets/images/img21.jpeg"
+import Img22 from "../assets/images/img22.jpeg"
+import Img23 from "../assets/images/img23.jpeg"
+import Img24 from "../assets/images/img24.jpeg"
+import Img25 from "../assets/images/img25.jpeg"
 
 const Gallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -10,84 +35,95 @@ const Gallery: React.FC = () => {
   const galleryItems = [
     {
       id: 1,
-      src: 'https://images.pexels.com/photos/5427674/pexels-photo-5427674.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src: Img1,
       category: 'classroom',
       title: 'Interactive Learning Session',
       description: 'Students engaged in collaborative problem-solving'
     },
     {
       id: 2,
-      src: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img24,
       category: 'activities',
       title: 'Science Experiment',
       description: 'Hands-on learning with practical experiments'
     },
     {
       id: 3,
-      src: 'https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img3,
       category: 'classroom',
       title: 'Mathematics Class',
       description: 'Advanced mathematics concepts explained simply'
     },
     {
       id: 4,
-      src: 'https://images.pexels.com/photos/5427656/pexels-photo-5427656.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/5427656/pexels-photo-5427656.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img4,
       category: 'activities',
       title: 'Group Study Session',
       description: 'Collaborative learning environment'
     },
     {
       id: 5,
-      src: 'https://images.pexels.com/photos/8471888/pexels-photo-8471888.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/8471888/pexels-photo-8471888.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img5,
       category: 'achievements',
       title: 'Award Ceremony',
       description: 'Celebrating student achievements and milestones'
     },
     {
       id: 6,
-      src: 'https://images.pexels.com/photos/4144101/pexels-photo-4144101.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/4144101/pexels-photo-4144101.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img6 ,
       category: 'classroom',
       title: 'English Literature Class',
       description: 'Exploring classic literature and creative writing'
     },
     {
       id: 7,
-      src: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img7,
       category: 'activities',
       title: 'Art & Creativity',
       description: 'Developing creative skills through art projects'
     },
     {
       id: 8,
-      src: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img23,
       category: 'classroom',
       title: 'Computer Science Lab',
       description: 'Learning programming and digital literacy'
     },
     {
       id: 9,
-      src: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img9,
       category: 'achievements',
       title: 'Student Success Stories',
       description: 'Celebrating academic excellence and progress'
     },
     {
       id: 10,
-      src: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img17,
       category: 'activities',
       title: 'Project Presentation',
       description: 'Students presenting their research projects'
     },
     {
       id: 11,
-      src: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img15,
       category: 'classroom',
       title: 'Physics Laboratory',
       description: 'Practical physics experiments and demonstrations'
     },
     {
       id: 12,
-      src: 'https://images.pexels.com/photos/3184432/pexels-photo-3184432.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // src: 'https://images.pexels.com/photos/3184432/pexels-photo-3184432.jpeg?auto=compress&cs=tinysrgb&w=600',
+      src : Img12,
       category: 'achievements',
       title: 'Competition Winners',
       description: 'Students excelling in academic competitions'

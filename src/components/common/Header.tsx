@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { GraduationCap, Menu, X, Home, BookOpen, Users, Camera, Phone, Briefcase } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Logo from "../../assets/logo.jpeg"
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,7 +41,10 @@ const Header: React.FC = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <GraduationCap className="h-8 w-8 text-blue-600" />
+            {/* <GraduationCap className="h-8 w-8 text-blue-600" /> */}
+            <div className="">
+              <img src={Logo} alt="" className='w-20 w-20 rounded-full ' />
+            </div>
             <span className="lg:text-5xl sm:text-3xl md:text-4xl font-bold gradient-text">Shree Ji Tuition</span>
           </motion.div>
           
