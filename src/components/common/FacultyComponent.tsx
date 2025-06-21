@@ -1,15 +1,19 @@
 import { motion } from 'framer-motion';
+import JhatuSingh  from "../../assets/jhatuSingh2.jpeg"
+import Cofounder from "../../assets/coFounder.jpeg"
 
 const faculty = [
   {
     name: 'Jamwant Singh',
     role: 'Founder',
-    image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400',
+    // image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image : JhatuSingh
   },
   {
     name: 'Ankit Singh',
     role: 'Co-Founder',
-    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    // image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image : Cofounder
   },
 ];
 
@@ -26,7 +30,7 @@ const FacultyComponent = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
-            className="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 w-full max-w-xs text-center"
+            className="bg-gray-50 p-6  rounded-xl shadow-lg hover:shadow-2xl transition duration-300 w-full max-w-xs text-center"
           >
             <img
               src={person.image}
